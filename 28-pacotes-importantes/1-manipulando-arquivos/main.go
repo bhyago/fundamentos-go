@@ -14,7 +14,6 @@ func main() {
 
 	// tamanho, err := f.WriteString("Hello, World!")
 	tamanho, err := f.Write([]byte("Hello, World!"))
-
 	if err != nil {
 		panic(err)
 	}
